@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+# Website title shown in the browser tab and search results
+title: 'Xuanning Zhang | Economics'
 # Website URL
 baseURL: 'https://example.com/'
 
