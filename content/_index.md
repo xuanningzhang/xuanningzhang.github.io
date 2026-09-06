@@ -106,6 +106,7 @@ sections:
 
         <div class="research-item">
           <h3>Demand for Rare Success: Salient Realizations and Latent Quality in the Stallion Market</h3>
+          <div class="research-coauthors">with Sen Lu</div>
           <div class="research-status">Work in Progress</div>
           <details class="research-abstract">
             <summary>Abstract</summary>

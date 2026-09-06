@@ -151,6 +151,14 @@ header nav {
   letter-spacing: -0.02em;
 }
 
+.research-coauthors {
+  margin-bottom: 0.2rem;
+
+  font-size: 1rem;
+
+  color: #334155;
+}
+
 .research-status {
   margin-bottom: 1.15rem;
 
