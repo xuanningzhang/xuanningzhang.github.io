@@ -19,7 +19,7 @@ sections:
         **Incoming PhD Student in Economics**<br>
         The Chinese University of Hong Kong, Shenzhen<br><br>
 
-        I am an incoming PhD student in Economics at The Chinese University of Hong Kong, Shenzhen. My research interests lie in empirical industrial organization and applied microeconomics.
+        My current research interests lie in empirical industrial organization and applied microeconomics.
 
       primary_action:
         text: xuanning.zhang.econ@outlook.com
