@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
 summary: ''
 date: 2026-09-06
@@ -8,58 +7,119 @@ type: landing
 sections:
 
   # =========================================================
-  # 1. BIOGRAPHY
+  # PROFILE
   # =========================================================
-  - block: resume-biography-3
+  - block: hero
+    id: about
+
     content:
-      # This corresponds to data/authors/me.yaml
-      username: me
-      text: ''
+      title: Xuanning Zhang
 
-      # CV button
-      button:
-        text: Download CV
+      text: |-
+        **Incoming PhD Student in Economics**<br>
+        The Chinese University of Hong Kong, Shenzhen<br><br>
+
+        I am an incoming PhD student in Economics at The Chinese University of Hong Kong, Shenzhen. My research interests lie in empirical industrial organization and applied microeconomics.
+
+      primary_action:
+        text: Email
+        url: mailto:xuanning.zhang.econ@outlook.com
+        style: text
+
+      secondary_action:
+        text: CV
         url: /uploads/resume.pdf
+        style: text
 
-      headings:
-        about: About
-        education: Education
-        interests: Research Interests
+      media:
+        type: image
+        src: authors/me.jpg
+        alt: Xuanning Zhang
 
     design:
-      # I recommend turning off the gradient for a cleaner academic style
-      background:
-        gradient_mesh:
-          enable: false
+      layout: split-right
+      alignment: left
+      size: compact
 
-      # Name size
-      name:
-        size: md
-
-      # Profile photo
-      avatar:
-        size: medium
-        shape: circle
+      spacing:
+        padding:
+          - '44px'
+          - '0'
+          - '44px'
+          - '0'
 
 
   # =========================================================
-  # 2. RESEARCH
+  # RESEARCH
   # =========================================================
   - block: markdown
     id: research
+
     content:
-      title: Research
-      subtitle: ''
+      title: ''
       text: |-
-        My research interests lie in **empirical industrial organization** and **applied econometrics**, with particular interests in **healthcare markets** and **digital markets**.
+        <div class="academic-section">
 
-        ### Work in Progress
+        <h2 class="academic-section-title">Research</h2>
 
-        **Market Entry and Competition in Home Health Care**
+        <div class="research-item">
+          <h3>Market Entry and Competition in Home Health Care</h3>
+          <div class="research-status">Work in Progress</div>
+          <p>This project studies firm entry and market structure in the U.S. home health care industry using structural entry models.</p>
+        </div>
 
-        This project studies firm entry and market structure in the U.S. home health care industry using structural entry models.
+        </div>
 
     design:
       columns: '1'
+
+      spacing:
+        padding:
+          - '48px'
+          - '0'
+          - '48px'
+          - '0'
+
+
+  # =========================================================
+  # EDUCATION
+  # =========================================================
+  - block: markdown
+    id: education
+
+    content:
+      title: ''
+      text: |-
+        <div class="academic-section">
+
+        <h2 class="academic-section-title">Education</h2>
+
+        <div class="education-item">
+          <div class="education-main">
+            <div class="education-degree">PhD in Economics</div>
+            <div class="education-school">The Chinese University of Hong Kong, Shenzhen</div>
+          </div>
+          <div class="education-date">2027–</div>
+        </div>
+
+        <div class="education-item">
+          <div class="education-main">
+            <div class="education-degree">Bachelor of Economics</div>
+            <div class="education-school">Central University of Finance and Economics</div>
+          </div>
+          <div class="education-date">2023–2027</div>
+        </div>
+
+        </div>
+
+    design:
+      columns: '1'
+
+      spacing:
+        padding:
+          - '48px'
+          - '0'
+          - '64px'
+          - '0'
 
 ---
