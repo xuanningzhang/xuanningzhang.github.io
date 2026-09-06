@@ -8,15 +8,20 @@
       "version": "22",
       "pnpmVersion": "10.14.0"
     },
+
     "ghcr.io/devcontainers/features/hugo:1": {
       "version": "0.162.0",
       "extended": true
+    },
+
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "latest"
     }
   },
 
   "updateContentCommand": "pnpm install --frozen-lockfile --prefer-offline",
 
-  "postCreateCommand": "node --version && pnpm --version && hugo version",
+  "postCreateCommand": "node --version && pnpm --version && hugo version && go version",
 
   "customizations": {
     "vscode": {
